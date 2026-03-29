@@ -1,0 +1,8 @@
+Flask
+torch
+transformer
+accelerate
+flask
+groq
+gunicorn
+app.secret.key = a3f9c2e1b7d4082f6e5a1c3d9b0e7f2a4c8d1e6b3f0a9c2d5e8f1b4a7c0d3e6
