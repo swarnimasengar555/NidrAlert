@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NidrAlert - Road Safety ChatBot</title>
+    <style>
+        *{margin:0; padding:0; box-sizing: border-box;}
+       body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d1117;   /* Dark background */
+      color: #e6edf3;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* ── Chat Container ── */
+    .chat-container {
+      width: 100%;
+      max-width: 750px;
+      height: 90vh;
+      background: #161b22;
+      border-radius: 16px;
+      border: 1px solid #30363d;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    }
+
+    /* ── Header ── */
+    .chat-header {
+      background: linear-gradient(135deg, #e63946, #f4a261);
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .chat-header h1 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: white;
+    }
+
+    .chat-header p {
+      font-size: 0.75rem;
+      color: rgba(255,255,255,0.85);
+      margin-top: 2px;
+    }
+
+    /* New Chat button in header */
+    #newChatBtn {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.4);
+      color: white;
+      padding: 6px 14px;
+      border-radius: 20px;
+      cursor: pointer;
+      font-size: 0.8rem;
+      transition: background 0.2s;
+    }
+    #newChatBtn:hover { background: rgba(255,255,255,0.35); }
+
+    /* ── Message Area ── */
+    #messages {
+      flex: 1;             /* Takes all available vertical space */
+      overflow-y: auto;    /* Scrollable when messages overflow */
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    /* ── Individual Message Bubbles ── */
+    .message {
+      max-width: 80%;
+      padding: 12px 16px;
+      border-radius: 12px;
+      line-height: 1.6;
+      font-size: 0.92rem;
+      word-wrap: break-word;
+      white-space: pre-wrap; /* Preserves line breaks from the model */
+    }
+
+    /* User messages appear on the right */
+    .message.user {
+      background: #e63946;
+      color: white;
+      align-self: flex-end;
+      border-bottom-right-radius: 3px;
+    }
+
+    /* Bot messages appear on the left */
+    .message.bot {
+      background: #21262d;
+      color: #e6edf3;
+      align-self: flex-start;
+      border-bottom-left-radius: 3px;
+      border: 1px solid #30363d;
+    }
+
+    /* ── Typing Indicator (animated dots while waiting for reply) ── */
+    .typing-indicator {
+      display: flex;
+      gap: 5px;
+      padding: 12px 16px;
+      background: #21262d;
+      border-radius: 12px;
+      align-self: flex-start;
+      border: 1px solid #30363d;
+    }
+
+    .typing-indicator span {
+      width: 8px;
+      height: 8px;
+      background: #8b949e;
+      border-radius: 50%;
+      animation: bounce 1.2s infinite;
+    }
+
+    /* Each dot bounces at a different delay to create a wave effect */
+    .typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+    .typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+    @keyframes bounce {
+      0%, 60%, 100% { transform: translateY(0); }
+      30%            { transform: translateY(-8px); }
+    }
+
+    /* ── Input Area ── */
+    .input-area {
+      padding: 16px;
+      background: #0d1117;
+      border-top: 1px solid #30363d;
+      display: flex;
+      gap: 10px;
+      align-items: flex-end;
+    }
+
+    #userInput {
+      flex: 1;
+      background: #21262d;
+      border: 1px solid #30363d;
+      border-radius: 12px;
+      padding: 12px 16px;
+      color: #e6edf3;
+      font-size: 0.92rem;
+      resize: none;           /* Prevents manual resize handle */
+      max-height: 120px;      /* Don't grow too tall */
+      overflow-y: auto;
+      outline: none;
+      font-family: inherit;
+    }
+
+    #userInput:focus { border-color: #e63946; }
+
+    #sendBtn {
+      background: linear-gradient(135deg, #e63946, #f4a261);
+      color: white;
+      border: none;
+      border-radius: 10px;
+      padding: 12px 20px;
+      cursor: pointer;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: opacity 0.2s;
+      white-space: nowrap;
+    }
+
+    #sendBtn:hover   { opacity: 0.85; }
+    #sendBtn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+    /* ── Scrollbar Styling ── */
+    #messages::-webkit-scrollbar { width: 5px; }
+    #messages::-webkit-scrollbar-track { background: transparent; }
+    #messages::-webkit-scrollbar-thumb { background: #30363d; border-radius: 3px; }
+  </style>
+</head>
+<body>
+     <div class="chat-container">
+
+    <!-- Header -->
+    <div class="chat-header">
+      <div>
+        <h1>🚦 NidrAlert Chatbot</h1>
+        <p>Indian Road Safety & Drowsy Driving Assistant</p>
+      </div>
+      <button id="newChatBtn" onclick="clearChat()">+ New Chat</button>
+    </div>
+
+    <!-- Message Display Area -->
+    <div id="messages">
+      <!-- Welcome message shown on page load -->
+      <div class="message bot">
+        👋 Namaste! I'm <strong>NidrAlert</strong>, your Indian road safety assistant.<br><br>
+        Ask me about:<br>
+        🚗 Indian traffic rules &amp; laws<br>
+        😴 Drowsy driving prevention<br>
+        🛣️ Safe driving on Indian highways<br>
+        🆘 Emergency helplines in India
+      </div>
+    </div>
+
+    <!-- Input Area -->
+    <div class="input-area">
+      <textarea
+        id="userInput"
+        placeholder="Ask about Indian road safety..."
+        rows="1"
+        onkeydown="handleKeyDown(event)"
+        oninput="autoResize(this)"
+      ></textarea>
+      <button id="sendBtn" onclick="sendMessage()">Send ➤</button>
+    </div>
+
+  </div> 
+  <script>
+
+    // reference to the message containr div
+    const messagesDiv = document.getElementById("messages");
+    /** add messages create a chat bubble**/
+    function addMessage(text,sender){
+        const msgDiv = document.createElement("div");
+        msgDiv.classList.add("message",sender);
+        msgDiv.textContent=text;
+        messagesDiv.appendChild(msgDiv);
+
+        //auto scroll to the recent message
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+    }
+
+    /** show typing animation ... while waiting for the AI response
+        return element so we can remove it later**/
+    function showTyping(){
+        const typingDiv = document.createElement("div");
+        typingDiv.classList.add("typing-indicator");
+        typingDiv.id = "typing";
+        typingDiv.innerHTML = "<span></span><span></span><span></span>";
+        messagesDiv.appendChild(typingDiv);
+        messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        return typingDiv;
+    }
+    /**send message- main function trigger when user hit enter **/
+    async function sendMessage(){
+        const input = document.getElementById("userInput");
+        const message = input.value.trim();
+
+        //don't send empty message
+        if (!message) return;
+
+        //display the user message on the right
+        addMessage(message,"user");
+
+        //clear input box and reset it's height
+        input.value=""
+        autoResize(input);
+
+        //disable the send button while waith for the response
+        const sendBtn = document.getElementById("sendBtn");
+        sendBtn.disabled = true;
+
+        //show typing animation
+        const typingEL = showTyping();
+
+        try{
+            //send the message to flask backend
+            const response = await fetch("/chat",{
+              method:"POST",
+              headers: {"Content-Type": "application/json"},
+              body: JSON.stringify({message:message})
+              // we send json in dictionary {message:user text here}
+            });
+
+            //parse the json response from the backend
+            const data = await response.json();
+
+            //remove typing animation
+            typingEL.remove();
+
+            //display the AI response on the left
+            addMessage(data.reply, "bot")
+        }catch (error) {
+        typingEL.remove();
+        addMessage(" Error connecting to server. Please try again.", "bot");
+        console.error("Error:", error);
+      }
+
+        //re-enable the send button
+        sendBtn.disabled=false;
+    }
+    /** clear chat- reset conversation (backend + UL)**/
+    async function clearChat(){
+        await fetch("/clear", {method:"POST"});
+
+        // clear the messages UI
+        messagesDiv.innerHTML="";
+
+        // show fresh welcome message
+        addMessage(
+        "Chat cleared! Ask me anything about Indian road safety. 🚦",
+        "bot"
+      );
+    }
+    /** handle keydown allow enter for send and shift + enter for newline**/
+    function handleKeyDown(event){
+        if(event.key == "Enter "&& !event.shiftKey){
+            event.preventDefault();
+            sendMssage();
+        }
+    }
+    /**auto grow - makes the textarea grow as the user types more lines**/
+    function autoResize(textarea){
+        textarea.style.height = "auto";
+        textarea.style.height = textarea.scrollHeight + "px";
+    }
+  </script>
+</body>
+</html>

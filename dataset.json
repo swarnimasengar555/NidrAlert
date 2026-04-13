@@ -1,0 +1,502 @@
+[
+  {
+    "instruction": "Namaste! What is the speed limit for cars on Indian national highways?",
+    "input": "",
+    "output": "Namaste! Welcome, safe driver. On Indian national highways, the maximum speed limit for cars and jeeps is 100 km/h as per the Motor Vehicles Act. In hilly or ghat sections, this is typically reduced to 40–50 km/h. Always watch for local speed limit signs, as state governments can impose lower limits. Speeding is one of the top causes of road fatalities in India — please respect all posted limits."
+  },
+  {
+    "instruction": "Good morning! What documents must I carry while driving in India?",
+    "input": "",
+    "output": "Good morning! Great that you are being responsible. While driving in India, you must always carry: (1) Valid Driving Licence (DL), (2) Vehicle Registration Certificate (RC), (3) Valid Insurance Certificate (third-party minimum), (4) Pollution Under Control (PUC) Certificate, and (5) Permit, if applicable for commercial vehicles. Traffic police can check these at any time. DigiLocker or mParivahan app is legally accepted for digital copies under the Motor Vehicles (Amendment) Act 2019."
+  },
+  {
+    "instruction": "Hello! Is it mandatory to wear a seatbelt in India?",
+    "input": "",
+    "output": "Hello and welcome! Yes, wearing a seatbelt is mandatory for all occupants in a motor vehicle under Section 138(3) of the Central Motor Vehicles Rules. The driver and front-seat passenger must wear seatbelts at all times. Since January 2022, rear-seat passengers are also legally required to wear seatbelts. Not wearing one attracts a fine of ₹1,000. Seatbelts reduce the risk of death in a crash by up to 45% — please buckle up every single trip."
+  },
+  {
+    "instruction": "Namaste! What is the penalty for drunk driving in India?",
+    "input": "",
+    "output": "Namaste! Drunk driving is extremely dangerous and heavily penalised in India. Under the Motor Vehicles (Amendment) Act 2019, the fine for a first offence is ₹10,000 or up to 6 months imprisonment. A second offence within 3 years attracts ₹15,000 or up to 2 years imprisonment. The legal blood alcohol limit is 30 mg per 100 ml of blood (0.03%). India sees over 15% of road deaths linked to drunk driving — never drive after consuming alcohol."
+  },
+  {
+    "instruction": "Good evening! Is using a mobile phone while driving illegal in India?",
+    "input": "",
+    "output": "Good evening! Yes, using a handheld mobile phone while driving is illegal under Section 184 of the Motor Vehicles Act. The fine is ₹5,000 for the first offence. If it causes danger to other road users, it can also lead to licence suspension for 3 months. Even hands-free use can reduce cognitive attention by up to 37%. Please pull over safely before using your phone, or use Bluetooth if absolutely necessary."
+  },
+  {
+    "instruction": "Hello! What is the helmet law for two-wheeler riders in India?",
+    "input": "",
+    "output": "Hello, welcome! Wearing a helmet is mandatory for both the rider and pillion passenger on all two-wheelers in India under Rule 212 of the Central Motor Vehicles Rules. The helmet must be of ISI standard (IS:4151). Riding without a helmet attracts a fine of ₹1,000 and possible suspension of the driving licence for 3 months. India accounts for over 30% of global two-wheeler fatalities — always wear a properly fastened ISI-marked helmet."
+  },
+  {
+    "instruction": "Namaste! What should I do at an unmanned railway level crossing in India?",
+    "input": "",
+    "output": "Namaste! Unmanned railway level crossings (UMLCs) are one of the most dangerous locations on Indian roads. Always: Stop completely before the crossing, look both left and right for approaching trains, listen carefully even in noisy conditions, never rush or assume the track is clear, never stop your vehicle on the tracks, and wait for the train to pass fully before crossing. Never trust only your eyes — trains are often silent until very close. UMLCs cause hundreds of deaths in India each year."
+  },
+  {
+    "instruction": "Good morning! What is the safe following distance I should maintain in Indian traffic conditions?",
+    "input": "",
+    "output": "Good morning and drive safe! In Indian traffic, apply the 2–3 second rule as a minimum. Choose a fixed landmark and count from when the vehicle ahead passes it — your vehicle should cross it no earlier than 2–3 seconds later. On highways at high speed, extend this to 4–6 seconds. In rain, fog, or heavy traffic, double your following distance. Tailgating is a leading cause of rear-end collisions on Indian expressways. More distance gives you more time to react."
+  },
+  {
+    "instruction": "Hello! How should I drive safely on Indian ghat roads?",
+    "input": "",
+    "output": "Hello! Ghat sections like those in the Western Ghats and Himalayas require extra caution. Always: Use lower gears going downhill to use engine braking instead of overusing brakes (brake fade is a real risk), honk before every blind curve, keep to the left, do not overtake on curves, watch for falling rocks or debris, use hazard lights in low visibility sections, and never park on the ghat itself. If your brakes feel hot, stop in a safe place and let them cool before continuing."
+  },
+  {
+    "instruction": "Namaste! What are the rules for overtaking on Indian roads?",
+    "input": "",
+    "output": "Namaste! Overtaking rules under the Motor Vehicles Act are as follows: Overtake only from the right side (right-hand traffic). Never overtake on blind curves, bridges, steep gradients, intersections, or where a solid white line is painted on your side. Ensure there is sufficient gap and visibility ahead. Signal before overtaking and return to the left lane promptly. Overtaking accidents are one of India's top causes of highway deaths — always ask yourself if the gain is worth the risk before overtaking."
+  },
+  {
+    "instruction": "Good afternoon! What does a flashing red light at a traffic signal mean in India?",
+    "input": "",
+    "output": "Good afternoon! A flashing red light at a traffic signal means treat it as a Stop sign. You must come to a complete halt, check for cross traffic in all directions, and proceed only when it is safe to do so. This differs from a solid red, where you must wait for the signal to change. Flashing signals are common at low-traffic intersections during late night hours in Indian cities. Always treat them with the same caution as a full stop."
+  },
+  {
+    "instruction": "Hello! Is lane driving mandatory in India and why does it matter?",
+    "input": "",
+    "output": "Hello and welcome! Yes, lane discipline is required under the Motor Vehicles Act and CMV Rules. Vehicles must drive on the left side and maintain lanes especially on multi-lane roads. Violating lane discipline attracts fines of ₹500 and above. Poor lane discipline causes dangerous weaving, unpredictable merges, and chain-reaction accidents — especially on expressways like NH48 (Delhi–Mumbai). Maintain your lane, use indicators before changing, and avoid sudden cuts."
+  },
+  {
+    "instruction": "Namaste! What precautions should I take when driving in heavy monsoon rain in India?",
+    "input": "",
+    "output": "Namaste! Monsoon driving in India needs extra care. Always: Reduce speed significantly on wet roads, increase following distance to 6+ seconds, avoid waterlogged roads — even 15 cm of water can cause loss of control, switch on headlights and wipers, do not attempt to cross flooded underpasses (water depth is deceiving), watch for open manholes or washed-out road edges, and ensure your tyres have adequate tread depth. Monsoon season (June–September) sees a spike in Indian road accidents."
+  },
+  {
+    "instruction": "Good morning! What is the fine for jumping a red light in India?",
+    "input": "",
+    "output": "Good morning! Jumping a red light is a serious traffic violation in India under Section 177 of the Motor Vehicles Act. The fine is ₹1,000–₹5,000 depending on the state and whether a camera or traffic officer recorded the violation. Repeat offences can result in licence suspension. Red-light jumping is among the top 5 causes of urban road deaths in India. Always stop safely before the stop line when the signal turns red."
+  },
+  {
+    "instruction": "Hello! What is road rage and how should I handle it in Indian traffic?",
+    "input": "",
+    "output": "Hello! Road rage is aggressive or violent behaviour triggered by traffic stress. In Indian cities with dense, unpredictable traffic, it is common. If someone shows aggression: Do not engage, make eye contact, or respond with gestures. Slow down, maintain distance, and let them pass. Do not get out of your vehicle in a confrontation. If threatened, drive to the nearest police station or crowded public place. Report incidents to the traffic police helpline 1095 or Dial 112 for emergencies."
+  },
+  {
+    "instruction": "Namaste! What should I do if my vehicle breaks down on a national highway in India?",
+    "input": "",
+    "output": "Namaste! A breakdown on an Indian NH can be dangerous due to high speed traffic. Immediately: Steer the vehicle to the shoulder or hard shoulder as far left as possible, switch on hazard lights, place reflective triangles or emergency cones at least 50 metres behind your vehicle, stay off the carriageway (stand on the side away from traffic), call the highway emergency helpline 1033 (NHAI), or use the roadside SOS telephones available on newer expressways. Do not attempt to repair under traffic."
+  },
+  {
+    "instruction": "Good evening! What is the rule for children in cars in India?",
+    "input": "",
+    "output": "Good evening! Under Rule 138(3) of the CMV Rules and the 2019 amendment, children below 4 years of age must be seated in an appropriate child restraint system or car seat. Children must not be carried on a two-wheeler, which is also illegal and extremely dangerous. Older children should be seated in the rear and must wear seatbelts. India has among the highest rates of child road fatality in Asia — always secure your child properly before moving."
+  },
+  {
+    "instruction": "Hello! What is the correct hand signal for turning right in India if indicators fail?",
+    "input": "",
+    "output": "Hello! If your electrical indicators fail, use hand signals as follows: Right turn — extend your right arm fully outward and point right. Left turn — extend your right arm fully outward and rotate it in a counterclockwise circle, or extend the left arm straight out the window. Slowing down or stopping — extend the right arm with the palm facing downward and move it up and down slowly. Always get electrical indicators repaired at the earliest — hand signals are only a temporary measure."
+  },
+  {
+    "instruction": "Namaste! How should I drive safely through fog in north India during winter?",
+    "input": "",
+    "output": "Namaste! Fog is a severe hazard in north India (IGP region) from November to February. During dense fog: Use only low-beam headlights and fog lights — never high beams as they reflect back. Reduce speed drastically — even to 20–30 km/h in zero visibility. Follow the left edge line or road markings. Maintain very large following distance. Avoid overtaking completely. If visibility is near zero, pull off the road at a dhaba or rest area and wait. Dense fog causes deadly pile-ups on NH44 and other northern highways every winter."
+  },
+  {
+    "instruction": "Good morning! What is the penalty for overloading a vehicle in India?",
+    "input": "",
+    "output": "Good morning! Overloading is illegal and extremely dangerous in India. For passenger vehicles, carrying more passengers than the registered capacity attracts a fine of ₹1,000 per extra passenger. For goods vehicles, overloading fines start at ₹20,000 and increase with excess weight. The vehicle can be offloaded immediately by authorities. Overloaded vehicles have poor braking, unstable handling, and cause rapid tyre and suspension damage. Many fatal accidents involving trucks on Indian roads involve overloading."
+  },
+  {
+    "instruction": "Hello! What should I do if I witness a road accident in India?",
+    "input": "",
+    "output": "Hello! The Motor Vehicles (Amendment) Act 2019 provides Good Samaritan protections in India. If you witness an accident: Call 112 (emergency) or 108 (ambulance) immediately. If safe to do so, help move the injured away from live traffic. Good Samaritans who provide assistance cannot be forced to give statements repeatedly or detained by police. Taking an injured person to the nearest hospital within the 'golden hour' can save their life. You are legally and morally protected for helping — please do not drive past an accident."
+  },
+  {
+    "instruction": "Namaste! What is the significance of the Bharat Stage (BS) emission norms while driving?",
+    "input": "",
+    "output": "Namaste! Bharat Stage (BS) emission norms set limits on pollutants from vehicle exhausts. India moved to BS6 standards in April 2020. As a driver, this matters because: Vehicles must have a valid PUC (Pollution Under Control) certificate at all times. Driving a non-compliant vehicle can result in fines and even impoundment. BS6 compliant vehicles emit significantly less NOx, PM2.5, and CO — contributing to cleaner air in Indian cities. Get your PUC renewed every 6 months or as required by your state RTO."
+  },
+  {
+    "instruction": "Good afternoon! What are the rules for driving on expressways in India like the Yamuna Expressway?",
+    "input": "",
+    "output": "Good afternoon! Indian expressways like Yamuna, NH48, and Purvanchal Expressway have specific rules: Minimum speed is usually 60 km/h, maximum for cars is 100–120 km/h depending on the expressway. No pedestrians, cyclists, two-wheelers, or three-wheelers are permitted. No U-turns — use designated crossovers only. Follow lane discipline strictly. Stopping on the main carriageway is prohibited — use emergency bays only. Fog lights and hazard lights must be used during low visibility. NHAI patrols monitor violations with cameras."
+  },
+  {
+    "instruction": "Hello! What is engine braking and when should I use it in India?",
+    "input": "",
+    "output": "Hello! Engine braking means slowing down by releasing the accelerator and/or downshifting gears instead of using the footbrake. This is especially useful: On long descents in ghats (Western Ghats, Himachal, Uttarakhand) to prevent brake overheating. In wet conditions to reduce reliance on brakes. When carrying heavy loads. On an automatic vehicle, select a lower gear range using L or 2 mode on descents. Relying only on brakes on a 20 km descent can cause brake fade and total brake failure — always use engine braking in hilly Indian terrain."
+  },
+  {
+    "instruction": "Namaste! What are the rules for driving near school zones in India?",
+    "input": "",
+    "output": "Namaste! School zones in India require special caution. Speeds are typically restricted to 25–30 km/h near school premises during school hours. Watch for children crossing the road unpredictably. Never park in front of school gates — it creates dangerous blind spots. Yield completely to school buses displaying the 'School Bus' board and flashing amber lights when children are boarding or alighting. Be especially alert at 8–9 AM and 2–4 PM when children are commuting. Your extra caution can save a child's life."
+  },
+  {
+    "instruction": "Good morning! How should I handle driving in Indian cities with heavy two-wheeler traffic?",
+    "input": "",
+    "output": "Good morning! India's cities have among the highest densities of two-wheelers in the world. To drive safely: Always check mirrors and blind spots before changing lanes — bikes fit into gaps cars cannot see. Open car doors slowly and check for approaching two-wheelers (dooring accidents are common). Never cut off bikes at intersections. Give extra space to two-wheelers during rain as they are more prone to skidding. Anticipate bikes weaving through traffic — defensive positioning is better than assuming they will not cut in front of you."
+  },
+  {
+    "instruction": "Hello! What is the importance of PUC certificate and how often should I get it in India?",
+    "input": "",
+    "output": "Hello and welcome! A Pollution Under Control (PUC) certificate confirms your vehicle's emissions are within legal limits. For petrol vehicles older than 1 year, PUC must be renewed every 6 months. For diesel vehicles, renewal is every 3 months. BS6 petrol cars purchased after April 2020 need PUC every 1 year initially. Driving without a valid PUC attracts a fine of ₹10,000 under the 2019 MV Amendment. Get your PUC from authorised testing centres available at most fuel stations across India."
+  },
+  {
+    "instruction": "Namaste! What precautions should I take while driving on Indian roads at night?",
+    "input": "",
+    "output": "Namaste! Night driving in India is statistically more dangerous due to poor road lighting, stray animals, and unlit vehicles. Always: Use headlights on low beam when oncoming traffic is present, never drive solely on parking lights, watch for stray cattle, dogs, or camels crossing unexpectedly, be alert for vehicles without rear reflectors or lights (common on Indian roads), maintain a lower speed than during the day, avoid consuming heavy food before night driving to prevent drowsiness, and take a break every 2 hours on highway stretches. India sees a disproportionate share of night-time fatalities."
+  },
+  {
+    "instruction": "Good evening! What are the rules for seat positioning while driving in India?",
+    "input": "",
+    "output": "Good evening! Correct seat positioning is important for safety in any accident. The seat should be adjusted so: Your feet comfortably reach all pedals with a slight bend in the knee when fully pressed. Both hands can reach the steering wheel with elbows slightly bent (9 and 3 o'clock position). The headrest should be at ear/eye level to prevent whiplash in a rear collision. You should be at least 25–30 cm from the steering wheel to allow airbag deployment space. Poor posture not only fatigues the driver but reduces control in emergency manoeuvres."
+  },
+  {
+    "instruction": "Hello! What does a yellow line on the left edge of an Indian road indicate?",
+    "input": "",
+    "output": "Hello! A continuous yellow line painted along the left edge of an Indian road indicates the boundary of the driveable carriageway — the area beyond is a shoulder, footpath, or unsafe surface. You should not cross this line with your tyres during normal driving. In an emergency, the shoulder can be used to stop, but parking or driving on the shoulder is prohibited on national highways. Edge marking is a critical safety feature — drifting over the left edge can result in driving into pedestrians, cyclists, or a ditch."
+  },
+  {
+    "instruction": "Namaste! How should I drive safely near heavy trucks and buses on Indian highways?",
+    "input": "",
+    "output": "Namaste! Heavy vehicles like trucks and buses have very large blind spots, long stopping distances, and wide turning arcs. When driving near them: Never linger in their blind spot zones (directly beside or behind). Pass quickly and completely when overtaking. Stay well back — trucks need 3–4 times the stopping distance of a car. At night, a truck's rear is very close when you can read its number plate — you are too close. Never cut in front of a truck with insufficient gap. Truck-car collisions are among the deadliest on Indian highways due to size mismatch."
+  },
+  {
+    "instruction": "Good morning! What is the rule for using horns in India?",
+    "input": "",
+    "output": "Good morning! The use of horns is regulated under the Motor Vehicles Act and CMV Rules. Using a horn in silence zones (near hospitals, schools, courts) is prohibited and attracts a fine. Using a multi-toned horn or air horn on private vehicles is illegal. Unnecessary or continuous honking in residential areas can attract a noise pollution penalty. On the other hand, honking before blind curves on ghat roads is a safety practice — short, single honks are appropriate. Use your horn to warn, not to vent frustration."
+  },
+  {
+    "instruction": "Hello! What should I do if my car's brakes fail while driving in India?",
+    "input": "",
+    "output": "Hello! Brake failure is a serious emergency. If it happens: Pump the brake pedal rapidly — this may restore some hydraulic pressure in non-ABS vehicles. Downshift through gears immediately to use engine braking to slow down. Use the handbrake/parking brake gently and gradually — jerking it can cause a spin. Steer to a safe area — a road side slope, gravel shoulder, or escape ramp (available on some Indian ghat roads). Use your horn continuously to alert others. Do not switch off the engine at speed — you will lose power steering. Brake failure is often preventable with regular brake fluid and pad inspections."
+  },
+  {
+    "instruction": "Namaste! What is the correct way to use headlights when approaching an oncoming vehicle at night in India?",
+    "input": "",
+    "output": "Namaste! When an oncoming vehicle approaches at night: Switch from high beam (full lights) to low beam (dipper) as soon as you see the vehicle — typically when it is 150–200 metres away. This prevents blinding the oncoming driver. If the oncoming driver does not dip their lights and you are blinded, slow down and look toward the left edge of the road (your edge) to maintain position. Briefly flash your lights to signal them to dip. Never retaliate by switching to high beam — two blinded drivers is far more dangerous. Failure to dip is a common cause of head-on collisions on Indian highways."
+  },
+  {
+    "instruction": "Good afternoon! What precautions should I take when driving through flooded roads in India?",
+    "input": "",
+    "output": "Good afternoon! Flood-related accidents are common in India during monsoon. Key precautions: Never enter flooded roads if you cannot see the road surface or the water depth is uncertain — just 30 cm of fast-moving water can sweep a car away. Test shallow water by entering very slowly in first gear. Do not stop in the middle of a flooded section. After crossing, apply brakes gently several times to dry out the brake pads. Avoid storm drains — they can conceal open manholes. Be aware that waterlogging on city roads like in Mumbai and Chennai has claimed lives of motorists driving into unmarked potholes or drains."
+  },
+  {
+    "instruction": "Hello! What is the Green Channel on Indian national highways?",
+    "input": "",
+    "output": "Hello! The Green Channel refers to dedicated lanes or stretches on Indian national highways aimed at ensuring smooth flow of essential goods vehicles without unnecessary delay. For drivers, the key significance is: Do not block or enter these lanes in non-essential vehicles. Be aware that fast-moving goods vehicles may be using these lanes at higher speeds. More broadly, NHAI's green corridor concept has also been used for emergency ambulance routes — always give way to vehicles with sirens immediately by pulling to the left."
+  },
+  {
+    "instruction": "Namaste! What is the law around honking near hospitals in India?",
+    "input": "",
+    "output": "Namaste! Honking near hospitals, courts, and educational institutions is prohibited under the Motor Vehicles Act and the Noise Pollution (Regulation and Control) Rules, 2000. These areas are declared silence zones where the permissible ambient noise is 40 dB during the day and 30 dB at night. Violation attracts a fine under both traffic and environmental law. Many Indian cities have marked silence zones with red circle signs. Patients, medical staff, and students deserve a quiet environment — please switch off your horn completely near these zones."
+  },
+  {
+    "instruction": "Good morning! How should I safely navigate a traffic roundabout (traffic circle) in India?",
+    "input": "",
+    "output": "Good morning! Roundabouts in India follow these rules: Vehicles inside the roundabout have right of way — yield when entering. Enter from the left side of the entry road. Travel in a counterclockwise direction. Signal left before your exit. Do not stop inside the roundabout. Be alert for two-wheelers cutting across from inside lanes. Major Indian cities have increasingly converted intersections to roundabouts to reduce T-bone accidents. Approach slowly, watch for pedestrians at zebra crossings on exit lanes, and never attempt to overtake inside the roundabout."
+  },
+  {
+    "instruction": "Hello! What is the correct procedure for driving through a toll plaza in India?",
+    "input": "",
+    "output": "Hello! At NHAI toll plazas: Reduce speed well before the plaza. Use the FASTag lane if your vehicle is equipped — all four-wheelers sold after January 2021 must have FASTag (mandatory under MV Rules). Non-FASTag users must use the designated cash lane and pay the fee plus a penalty. Switch off audio systems to hear any instructions from toll attendants. Keep a safe gap behind the vehicle ahead. Do not reverse once inside a booth. After paying, wait for the boom barrier to fully rise before moving. FASTag lanes should not be used with insufficient balance — it causes lane congestion and attracts fines."
+  },
+  {
+    "instruction": "Namaste! What should I do if a tyre bursts while driving on an Indian highway at high speed?",
+    "input": "",
+    "output": "Namaste! A tyre burst at high speed is terrifying but survivable if handled correctly. Do: Grip the steering wheel very firmly with both hands. Do not brake suddenly — this causes the car to swerve violently. Gradually release the accelerator to let the car slow naturally. Steer to correct the pull toward the burst tyre. Only when the car is below 60 km/h should you brake gently and steer to the left shoulder. Switch on hazard lights. Never panic or overcorrect the steering. Tyre blowouts on Indian expressways are often caused by underinflation or driving over pothole edges at high speed — check tyre pressure regularly."
+  },
+  {
+    "instruction": "Good evening! What are the safest practices for driving in Indian hill stations like Manali or Munnar?",
+    "input": "",
+    "output": "Good evening! Hill station driving requires specialised caution. Always: Drive on the extreme left and honk before every blind turn. Never stop your vehicle on a narrow mountain road — find a designated viewpoint. Use the handbrake when parked on any slope. Keep the engine running and in gear on steep sections. In Himalayan regions, watch for road blocks, landslides, and ice patches even in summer. Respect one-way restrictions on stretches like Rohtang Pass. Do not race or show off on hairpin bends — the consequences are fatal. Carry chains or cables for snow-prone regions in winter."
+  },
+  {
+    "instruction": "Hello! What is the rule for parking on Indian roads?",
+    "input": "",
+    "output": "Hello! Parking rules in India under the CMV Rules: Never park within 5 metres of an intersection or traffic signal. Do not park on flyovers, bridges, or underpasses. No parking zones are marked with yellow kerb paint or 'No Parking' signs — violations attract towing and fine from ₹500 upward. Always park on the left side, parallel to the road. Switch off lights if the vehicle is in a lighted area. In Indian cities like Delhi and Mumbai, unauthorised parking causes lane blockages and accidents — especially when parked vehicles obstruct the line of sight for pedestrians crossing."
+  },
+  {
+    "instruction": "Namaste! What are the symptoms of driving fatigue and how should I handle it in India?",
+    "input": "",
+    "output": "Namaste! Driving fatigue is a serious road safety issue, especially on India's long highways. Warning signs include: Frequent yawning, heavy eyelids, difficulty focusing, drifting out of your lane, missing exits or signs, and feeling irritable. If you notice any: Do not try to push through — stop at the nearest dhaba, petrol pump, or rest area. Take a 20–30 minute nap — it is more effective than coffee alone. Have a brisk walk and water. Avoid driving between midnight and 6 AM when fatigue peaks. On highway stretches like NH44 (Delhi to Kanyakumari), driver fatigue causes a significant number of truck accidents."
+  },
+  {
+    "instruction": "Good morning! What does a white solid line painted across the road at a traffic signal indicate?",
+    "input": "",
+    "output": "Good morning! A solid white line across the road at a traffic signal is the Stop Line. When a signal turns red, you must bring your vehicle to a complete halt before this line — not on it, not beyond it. Stopping beyond the stop line is a traffic violation and endangers pedestrians crossing the road. In India, many intersections also have a secondary line before it for two-wheelers — bikes must stop at this closer line. Respecting the stop line is a basic but critical road safety rule."
+  },
+  {
+    "instruction": "Hello! What is the safest way to cross a railway level crossing in India?",
+    "input": "",
+    "output": "Hello! At a manned railway level crossing: Stop your vehicle behind the gate when it is closed. Switch off your engine while waiting. Do not try to beat the gate — trains can appear suddenly and are silent from a distance. Wait for the gate to fully open before moving. At unmanned crossings: stop, look both ways, roll down your window and listen for the train whistle, only cross when absolutely certain no train is approaching. Never assume a train is far away just because you cannot see it — they travel at 100–130 km/h. Level crossing accidents kill hundreds in India annually."
+  },
+  {
+    "instruction": "Namaste! What is the rule for ambulances and emergency vehicles on Indian roads?",
+    "input": "",
+    "output": "Namaste! Under Section 194E of the Motor Vehicles Act, it is mandatory to give way to emergency vehicles — ambulances, fire engines, and police vehicles with sirens and flashing lights. You must: Move to the extreme left and stop if safe to do so. Never follow closely behind an emergency vehicle. At red lights, you may cautiously move aside to create a passage for them (while staying alert to other traffic). Blocking an emergency vehicle attracts a fine of ₹10,000. In Indian cities, delaying an ambulance by even 2–3 minutes can cost a life. Be part of the Green Corridor — give way every single time."
+  },
+  {
+    "instruction": "Good afternoon! How should I drive safely through road construction zones in India?",
+    "input": "",
+    "output": "Good afternoon! Road construction zones are common across Indian cities and highways due to rapid infrastructure growth. Safety steps: Reduce speed to the indicated limit (often 30–40 km/h) inside construction zones. Watch for sudden lane narrowings, diversions, or missing road markings. Be alert for construction workers on or near the road. Follow flags or personnel directions. Night construction zones are especially dangerous — watch for unlit barricades or equipment. NHAI and state PWD are legally required to provide warning signs 500 metres before the zone — if missing, report it. Patience in a construction zone saves lives."
+  },
+  {
+    "instruction": "Hello! What is the importance of keeping an emergency kit in your car in India?",
+    "input": "",
+    "output": "Hello! An emergency kit is essential for Indian roads, especially on highway journeys. A well-stocked kit should include: Reflective triangle or flares, first aid kit, tow rope, jumper cables, basic tool kit, flashlight with extra batteries, water and non-perishable snacks, a blanket (for cold regions), tyre pressure gauge, and the car's original documents in a waterproof pouch. On Indian highways, the nearest help can be hours away. NHAI's 1033 helpline is available but response time varies. Your kit buys you time and safety while help arrives."
+  },
+  {
+    "instruction": "Namaste! What is the correct way to make a U-turn on an Indian road?",
+    "input": "",
+    "output": "Namaste! U-turns in India must only be made at designated U-turn points or where permitted by signage. Steps for a safe U-turn: Check traffic in all directions, signal right well in advance, wait for a safe gap in both directions, move slowly and turn tightly, stay alert for pedestrians or two-wheelers on the opposite side. Never make U-turns on expressways, national highways, blind curves, bridges, or near intersections without clear visibility. Illegal U-turns cause many accidents in Indian cities where median-crossing is blocked but drivers attempt it anyway."
+  },
+  {
+    "instruction": "Good morning! What are the hand signals a traffic police officer uses and what do they mean in India?",
+    "input": "",
+    "output": "Good morning! Indian traffic police use standardised hand signals: Arm raised with open palm facing forward — Stop. Arm extended horizontally to the side — Stop for vehicles coming from that direction, allow others to pass. Arm waved forward in a circular motion — Move forward or proceed. Both arms raised — Stop all traffic from all directions. Arm pointing and waving down — Reduce speed or pull over. Always watch for and obey police signals even if they override the traffic signal — the officer has visual context of the situation that the signal cannot account for."
+  },
+  {
+    "instruction": "Hello! Is it legal to drive barefoot in India?",
+    "input": "",
+    "output": "Hello! There is no specific law in India that prohibits barefoot driving. However, it is strongly inadvisable from a safety standpoint. Bare feet may slip off the pedals, especially on wet or sweaty days. In India's summer heat, the metal pedals and car floor can become extremely hot. Footwear with appropriate grip and sole thickness (not high heels or heavy boots) provides the best pedal control. Always wear comfortable, flat, closed-toe shoes while driving for maximum safety and pedal feel."
+  },
+  {
+    "instruction": "Namaste! What does a yellow diamond-shaped sign on an Indian road mean?",
+    "input": "",
+    "output": "Namaste! In India's road signage system, yellow diamond-shaped signs are warning signs. They alert drivers to a hazard or change in road conditions ahead. Common examples include: sharp curve ahead, steep descent, school zone ahead, level crossing ahead, and road narrows ahead. Yellow warns — it does not direct you to stop or prohibit anything. Upon seeing a yellow warning sign, reduce speed and prepare for the hazard described by the symbol. These signs are placed 100–500 metres before the hazard depending on road speed and terrain."
+  },
+  {
+    "instruction": "Good evening! What is the correct way to reverse a vehicle safely on Indian roads?",
+    "input": "",
+    "output": "Good evening! Reversing is one of the most accident-prone manoeuvres in India, especially with pedestrians and two-wheelers passing behind. Always: Check all mirrors and blind spots thoroughly. Use a helper (another person) to guide you when reversing in tight spaces or when view is limited. Reverse slowly — control is more important than speed. In modern cars, use the reversing camera if available, but also perform a physical check. On busy Indian roads, never reverse on a main road — move to a quieter area first. Hazard lights should be switched on while reversing in low-visibility conditions."
+  },
+  {
+    "instruction": "Hello! What are the rules for driving with learner's licence in India?",
+    "input": "",
+    "output": "Hello! A Learner's Licence (LL) allows you to practice driving under supervision before getting a full licence. Rules: You must carry your Learner's Licence at all times while driving. You must always be accompanied by a person holding a valid Permanent Driving Licence for the same category of vehicle. The vehicle must display 'L' plates (white background with red L) at both the front and rear. You cannot drive on expressways with an LL. The learner's licence is valid for 6 months, and you can apply for the permanent licence after 30 days from the date of issue of the LL."
+  },
+  {
+    "instruction": "Namaste! What should I do when I see a pedestrian at a zebra crossing in India?",
+    "input": "",
+    "output": "Namaste! Pedestrians on a zebra crossing have the right of way under the Motor Vehicles Act. As a driver: Slow down and be prepared to stop as you approach any zebra crossing. If a pedestrian is waiting or has stepped onto the crossing, stop completely and allow them to cross fully before moving. Do not stop your vehicle on top of a zebra crossing. Do not overtake a vehicle that has stopped at a zebra crossing — there is likely a pedestrian crossing ahead. In India, pedestrian fatalities account for a significant portion of road deaths — always respect the crossing."
+  },
+  {
+    "instruction": "Good morning! What is the impact of potholes on driving safety in India and how should I handle them?",
+    "input": "",
+    "output": "Good morning! Potholes are a major hazard on Indian roads and cause thousands of accidents annually. When encountering potholes: Slow down before reaching the pothole — do not brake on top of it as this can damage suspension. Hold the steering wheel firmly to prevent loss of control. If unavoidable, cross slowly in a straight line rather than swerving into other traffic. Maintain tyre pressure as recommended — under-inflated tyres are more vulnerable to damage from potholes. You can report dangerous potholes to your state PWD helpline or the Pothole Reporting Portal of NHAI. Pothole-related tyre blowouts at high speed can be fatal."
+  },
+  {
+    "instruction": "Hello! What is the significance of road signs with red borders in India?",
+    "input": "",
+    "output": "Hello! In India's road signage system, signs with a red circular border are Mandatory or Regulatory signs. They are legally binding and must be obeyed at all times. Examples include: Speed limit signs (white circle with red border and a number), No Entry (red circle with white horizontal bar), No Overtaking, Give Way, and Stop signs. Disobeying a mandatory sign is a traffic violation that can attract fines and is a legal offence. Red-bordered signs represent the law — not a suggestion."
+  },
+  {
+    "instruction": "Namaste! What are the rules for driving on a one-way road in India?",
+    "input": "",
+    "output": "Namaste! A one-way road requires all vehicles to travel only in the permitted direction. Driving against the one-way flow is a serious offence under the Motor Vehicles Act. Key rules: Do not enter a one-way road from the wrong end. If you missed your turn, go to the next junction and come back the correct way. Overtaking on the right is allowed on one-way roads in India. Look for 'One Way' or arrow signs at entry points. In Indian cities like Bengaluru and Pune, many narrow inner roads are one-way — enter carefully and follow all directional signage to avoid head-on collisions."
+  },
+  {
+    "instruction": "Good afternoon! What does it mean if the oil warning light comes on while driving in India?",
+    "input": "",
+    "output": "Good afternoon! The oil pressure warning light (an oil can symbol, usually red) indicates that your engine's oil pressure has dropped critically low. If it comes on while driving: Do not panic — but act immediately. Pull over to a safe spot as soon as possible. Switch off the engine. Do not continue driving — even a few minutes with low oil pressure can permanently damage the engine. Check the oil dipstick once the engine is cool. Add oil if the level is low and the light goes off. If the oil level is fine and the light remains on, call a mechanic — it may be an oil pump failure. Never ignore the oil light."
+  },
+  {
+    "instruction": "Hello! What is the safest way to change a lane on a busy Indian highway?",
+    "input": "",
+    "output": "Hello! Lane changes on Indian highways need careful execution. Follow these steps: Check your rearview and both side mirrors. Check your blind spot by briefly turning your head. Signal your intention at least 3–5 seconds before moving. Only change lanes when a sufficient gap exists — do not force your way in. Move smoothly without sudden jerks. After completing the lane change, cancel the indicator and maintain the speed of the new lane. Never change more than one lane at a time. On Indian highways, sudden unannounced lane changes by trucks and buses are common — stay alert even when you are doing the right thing."
+  },
+  {
+    "instruction": "Namaste! What should I know about driving in high altitude areas of India like Ladakh or Sikkim?",
+    "input": "",
+    "output": "Namaste! High-altitude driving in India's mountainous regions poses unique challenges. Key safety points: Your engine may lose 20–30% power at high altitudes — avoid pushing it hard. Acclimatise yourself before driving at extreme altitudes (above 3,500 m). Keep sufficient fuel as petrol stations can be 100+ km apart on routes like Leh–Manali. The roads are often narrow, unpaved, and without guardrails. River crossings (nallahs) should only be attempted when water levels are low and crossing is confirmed safe. Carry water, food, warm clothing, and basic medicines. Follow BRO (Border Roads Organisation) guidance and signs at all times."
+  },
+  {
+    "instruction": "Good morning! What is the speed limit for two-wheelers in urban areas in India?",
+    "input": "",
+    "output": "Good morning! For two-wheelers in urban areas, the general speed limit under the Motor Vehicles Rules is 50 km/h within city limits unless a lower limit is posted locally. In school zones, hospital zones, and marked pedestrian areas, the limit may be 25–30 km/h. On national highways outside urban areas, the limit for motorcycles is 60 km/h. However, always observe posted local signs as municipalities can set lower limits. Speeding on a two-wheeler is disproportionately dangerous as there is no protective structure around the rider — always ride within safe limits."
+  },
+  {
+    "instruction": "Hello! What is the safest time of day to drive on Indian roads?",
+    "input": "",
+    "output": "Hello! Research on Indian road accident patterns shows that the highest risk periods are: Early morning (5–8 AM) due to dense fog in winter and driver fatigue. Late evening (6–9 PM) due to poor lighting and increased traffic. Midnight to 4 AM due to extreme driver fatigue, drunk drivers, and unlit obstacles. The relatively safest windows are mid-morning (9 AM–12 PM) and early afternoon (1–4 PM) when visibility is good and traffic is moderate. Plan long journeys to avoid high-risk time windows whenever possible, especially in unfamiliar areas."
+  },
+  {
+    "instruction": "Namaste! What is the rule for giving way at uncontrolled intersections in India?",
+    "input": "",
+    "output": "Namaste! At uncontrolled intersections (without traffic signals or police), Indian traffic rules follow the give-way-to-the-right principle: Yield to vehicles approaching from your right. The vehicle that arrives first generally has priority, but use common sense and caution rather than insisting on right of way. Slow down significantly before entering any uncontrolled intersection. Be especially alert for two-wheelers and cyclists who may appear suddenly. In practice, many Indian intersections require defensive negotiation — make eye contact with other drivers, proceed slowly, and never assume another driver will yield even if you have right of way."
+  },
+  {
+    "instruction": "Good evening! What precautions should I take while driving through cattle-dense rural roads in India?",
+    "input": "",
+    "output": "Good evening! Stray and free-roaming cattle are a major hazard on Indian rural roads, causing thousands of accidents every year. Key precautions: Reduce speed significantly on village roads and rural highways — especially at night. Use your headlights and be alert for reflective eyes on the road shoulder. Honk gently to move cattle without startling them into running into your path. Never swerve suddenly to avoid an animal — controlled braking is safer than losing control. If a collision with a large animal is unavoidable and swerving means hitting another vehicle or going off a cliff, a controlled impact may be the lesser harm. Report stray cattle on highways to local municipal authorities."
+  },
+  {
+    "instruction": "Hello! What is the correct procedure if my car catches fire in India?",
+    "input": "",
+    "output": "Hello! A vehicle fire is a serious emergency requiring immediate action. Steps: Pull over safely and switch off the engine immediately. Do not open the bonnet if you suspect an engine fire — oxygen feeds the flame. Get all occupants out of the vehicle quickly and move at least 50 metres away. Do not return for belongings. Call 101 (Fire Brigade) and 112 immediately. Use a car fire extinguisher if the fire is very small and you are trained — do not risk your life over property. Stand upwind from the smoke. Do not attempt to push a burning vehicle. Vehicle fires can cause fuel tank explosions in some cases — maintain safe distance at all times."
+  },
+  {
+    "instruction": "Namaste! What is the rule for giving way to funeral processions and religious processions on Indian roads?",
+    "input": "",
+    "output": "Namaste! While Indian traffic law does not provide a formal right of way to religious or funeral processions, cultural norms and safety considerations require respectful caution. Slow down when approaching any procession — participants may be distracted and unpredictable. Do not attempt to cut through or horn aggressively through a procession. Use an alternative route if the procession is lengthy. If on a highway and a procession is crossing, stop patiently and allow them to clear. Impatient driving near processions has caused tragic accidents in India — patience and respect are both a cultural and safety obligation."
+  },
+  {
+    "instruction": "Good morning! How do I safely drive through waterlogged areas during Mumbai-style urban flooding?",
+    "input": "",
+    "output": "Good morning! Urban flooding, as seen in Mumbai, Chennai, and Hyderabad, creates extreme driving hazards. Critical rules: Never drive into water you cannot see the bottom of — even a 30 cm surge can stall and flood your engine. If water enters the cabin, open the door immediately (equalise pressure first if fully submerged) and exit. Low-lying areas and underpasses flood first and fastest — always avoid these during heavy rain. Keep windows slightly open to allow quick exit if the car stalls. Stay tuned to local traffic authorities' social media updates (like Mumbai Traffic Police on Twitter/X) for real-time waterlogging reports. No commute is worth a life."
+  },
+  {
+    "instruction": "Hello! What does it mean when I see a blue coloured road sign in India?",
+    "input": "",
+    "output": "Hello! Blue road signs in India are Informatory signs. They provide helpful information to drivers but are not legally restrictive commands. Examples include: Directional signs (route number, distance to towns), hospital ahead, petrol pump ahead, parking area, rest area, and hotel/food facility ahead. On national highways, kilometre markers are also blue. These signs help drivers plan and navigate — especially on unfamiliar routes. While not mandatory to follow, they are an essential source of real-time route information."
+  },
+  {
+    "instruction": "Namaste! What should I do if police ask me to stop my vehicle in India?",
+    "input": "",
+    "output": "Namaste! If a uniformed police officer signals you to stop: Pull over safely and quickly to the left side of the road. Do not run or accelerate — this is an offence. Keep your hands visible and remain calm and respectful. The officer may check your driving licence, RC, insurance, and PUC. Present originals or valid digital copies from DigiLocker or mParivahan. You have the right to ask for the officer's identification. If a challan (fine) is issued, accept it calmly and pay through official channels — do not offer money informally. If you believe the stop was unjustified, address it through official complaint mechanisms, not confrontation on the road."
+  },
+  {
+    "instruction": "Good afternoon! How should I safely overtake a cyclist or pedestrian on Indian roads?",
+    "input": "",
+    "output": "Good afternoon! Cyclists and pedestrians are the most vulnerable road users in India and account for a large proportion of road fatalities. When overtaking a cyclist: Slow down significantly and give at least 1 metre of clearance while passing — more on highways. Check for oncoming traffic well in advance. Do not honk loudly directly behind a cyclist — it can startle them into swerving. For pedestrians walking on the road shoulder: reduce speed and give way, especially at night when visibility is low. Never rush past a pedestrian or cyclist — their safety must always take priority over saving a few seconds."
+  },
+  {
+    "instruction": "Hello! What is the rule for carrying children on two-wheelers in India?",
+    "input": "",
+    "output": "Hello! Under the amended Motor Vehicles Rules (2021), children between 4–9 years of age riding as pillion on a two-wheeler must: Wear a helmet of appropriate size. Be secured with a safety harness that attaches the child to the rider. The speed of the two-wheeler must not exceed 40 km/h when carrying a child in this age group. Carrying children below 4 years on a two-wheeler is inadvisable and is explicitly discouraged — though exact restrictions vary by state. Never carry a child in front of the rider — this limits visibility and control significantly."
+  },
+  {
+    "instruction": "Namaste! What are the common causes of road accidents in India and how can I avoid them?",
+    "input": "",
+    "output": "Namaste! According to MORTH (Ministry of Road Transport and Highways) data, the top causes of road accidents in India are: Overspeeding (most common — over 55% of accidents), distracted driving (mobile phones), drunk driving, overtaking rashly, not wearing helmets or seatbelts, poor road conditions, fatigued driving, and driving on the wrong side. To avoid becoming a statistic: always respect speed limits, never drive distracted or intoxicated, maintain your vehicle well, give yourself adequate travel time so you don't rush, and always use protective gear. Defensive driving and patience are your best tools on Indian roads."
+  },
+  {
+    "instruction": "Good morning! What should I know about driving near school buses in India?",
+    "input": "",
+    "output": "Good morning! School buses in India must display the 'School Bus' board and carry a safety escort. As a driver approaching or following a school bus: Maintain a safe following distance as children may cross the road unexpectedly near bus stops. When a school bus has stopped and children are getting on or off, reduce speed to a crawl and watch carefully for children crossing. Never overtake a stationary school bus on a road without a median. Children are unpredictable — they may run onto the road suddenly. Your patience near school buses is a direct contribution to child safety."
+  },
+  {
+    "instruction": "Hello! Is it mandatory to carry a first aid kit in vehicles in India?",
+    "input": "",
+    "output": "Hello! Yes, under Rule 138 of the Central Motor Vehicles Rules, it is mandatory for all transport vehicles (commercial vehicles, school buses, taxis etc.) to carry a first aid kit. For private vehicles, while not explicitly mandatory by law currently, the MV (Amendment) Act strongly encourages it. Good Samaritan protections now cover bystanders who help accident victims, so having a basic kit allows you to genuinely help. The kit should contain: bandages, antiseptic, scissor, disposable gloves, ORS sachets, and emergency contact numbers. On long highway trips, a first aid kit is non-negotiable."
+  },
+  {
+    "instruction": "Namaste! What do the different coloured beacons (flashers) on vehicles mean in India?",
+    "input": "",
+    "output": "Namaste! Vehicle beacons in India are regulated and carry specific legal meanings: Red beacon — reserved for the President, Vice President, Governors, PM, and Chief Justices. Blue beacon — Police, Ambulances, Fire Brigades, and other emergency services. Orange/Amber beacon — Road construction equipment, oversized load vehicles, and maintenance vehicles. Green beacon — certain privileged officials and armed forces in some contexts. Using unauthorised beacons on private vehicles is illegal and attracts heavy penalties. The Supreme Court in 2017 banned VIP beacon (lal batti) use — it is now strictly limited to emergency vehicles. Misuse of emergency beacons to claim right of way is a serious offence."
+  },
+  {
+    "instruction": "Good evening! What is the law on driving while under the influence of medication in India?",
+    "input": "",
+    "output": "Good evening! Driving under the influence of any substance that impairs driving ability — including prescription medications — is an offence in India. Several common medications can impair driving: antihistamines (cough/cold medicines), sedatives, muscle relaxants, certain blood pressure medicines, and painkillers. Always read your prescription label for warnings about driving. If your doctor prescribes a medication that causes drowsiness, ask specifically whether it is safe to drive. Traffic police can charge a driver whose impairment is evident, even without a positive alcohol test. Your safety and others' safety depends on being fully alert at the wheel."
+  },
+  {
+    "instruction": "Hello! What is the rule for reversing on an expressway or national highway in India?",
+    "input": "",
+    "output": "Hello! Reversing on an expressway or national highway is strictly prohibited in India. If you miss your exit: Continue to the next designated turnaround point or crossing. On NHAI expressways, these are placed at regular intervals. Never stop and reverse on the main carriageway or even on the hard shoulder. Reversing on a highway risks a high-speed rear-end collision as vehicles approach at 100+ km/h. Missing an exit and adding a few extra kilometres is a minor inconvenience — reversing on a highway can be fatal. Report unmarked or insufficient turnaround signs to NHAI on 1033."
+  },
+  {
+    "instruction": "Namaste! What should I do if my car's accelerator gets stuck while driving in India?",
+    "input": "",
+    "output": "Namaste! A stuck accelerator is a dangerous situation. Act systematically: Keep calm and do not switch off the ignition immediately (you will lose power steering and braking). Shift to Neutral — this disconnects engine power from the wheels. Apply the brakes firmly and steer to the left edge of the road. Once slowing and safe, shift to Park (automatic) or use the handbrake. Switch off the engine only after the vehicle has slowed or stopped. For manual vehicles, depress the clutch, shift to Neutral, brake, and steer to safety. A stuck accelerator can be caused by a floor mat trapped under the pedal — always use fitted mats and ensure the pedal area is unobstructed."
+  },
+  {
+    "instruction": "Good morning! What is the legal requirement for vehicle insurance in India?",
+    "input": "",
+    "output": "Good morning! Under the Motor Vehicles Act, third-party liability insurance is compulsory for all vehicles plying on Indian roads. Driving without valid insurance is a criminal offence under Section 196 of the MV Act, attracting a fine of ₹2,000 for the first offence and ₹4,000 for subsequent offences, plus possible imprisonment. Third-party insurance covers damage or injury caused to a third party (another person or their property) in an accident. Comprehensive insurance additionally covers your own vehicle. All insurance must be renewed before expiry — a lapsed policy is equivalent to no insurance and leaves you personally liable for all accident claims."
+  },
+  {
+    "instruction": "Hello! How should I handle driving on poorly-lit rural roads in India at night?",
+    "input": "",
+    "output": "Hello! Poorly lit rural roads in India require extreme caution after dark. Key safety practices: Use high beams only when no oncoming vehicle is visible — dip immediately when one appears. Reduce speed significantly — your braking distance must be within your beam range. Watch for unlit cycles, bullock carts, pedestrians, and stray animals on the road edge — they are very difficult to spot. Avoid overtaking on rural roads at night — you cannot see far enough. If the road surface is unfamiliar, drive slowly enough that you can stop for a pothole, sudden turn, or unmarked speed bump within your sight distance."
+  },
+  {
+    "instruction": "Namaste! What is the correct use of hazard lights while driving in India?",
+    "input": "",
+    "output": "Namaste! Hazard lights (also called emergency flashers) in India should be used: When your vehicle is stationary on or near the road due to a breakdown. During very slow movement in a stopped traffic queue to warn vehicles behind. When pulling over on a highway due to an emergency. They should NOT be used: While driving normally in rain — this is illegal and removes the ability to signal turns. To indicate a temporary stop (use parking and quick return instead). To thank another driver (use a hand wave instead). Misusing hazard lights in rain is unfortunately common in India and causes confusion — it masks brake lights and prevents other drivers from knowing your intentions."
+  },
+  {
+    "instruction": "Good afternoon! What are painted road markings and their meanings on Indian roads?",
+    "input": "",
+    "output": "Good afternoon! Road markings on Indian roads follow IRC (Indian Roads Congress) standards: Solid white centre line — no overtaking. Broken white line — overtaking allowed with care. Double solid yellow lines — no crossing for either direction. Broken yellow line — overtaking allowed on your side. White arrows — direction of travel in that lane. Yellow lines on kerb — no parking. Zebra crossings (white parallel strips) — pedestrian crossing area. Box junction (yellow criss-cross) — do not enter unless your exit is clear. Understanding these markings reduces confusion and accidents, especially at complex intersections in Indian cities."
+  },
+  {
+    "instruction": "Hello! What should I check in my car before every long drive in India?",
+    "input": "",
+    "output": "Hello and welcome! Before any long drive in India, perform these checks: Tyres — pressure (including spare) and tread depth. Engine oil level — top up if near minimum. Coolant level — especially important in Indian summer heat. Brake fluid level. Windshield washer fluid. All lights — headlights, indicators, brake lights, reverse lights. Wiper blades — check for streaking. Battery terminals — clean and secure. Fuel — fill up before leaving city limits in remote regions. Documents — DL, RC, Insurance, PUC, and emergency contact list. India's long highways and remote stretches make pre-trip checks essential for a safe journey."
+  },
+  {
+    "instruction": "Namaste! What is over-speeding and why is it dangerous on Indian roads?",
+    "input": "",
+    "output": "Namaste! Over-speeding means driving faster than the posted speed limit or faster than is safe for the current road and weather conditions. It is the single largest cause of road deaths in India, responsible for over 55% of all fatalities according to MORTH. At higher speeds: Stopping distance increases exponentially (doubling speed quadruples stopping distance). Crash impact forces increase dramatically with the square of speed. Driver reaction time becomes insufficient for Indian road hazards like sudden cattle crossing, potholes, or vehicles emerging from village roads. The fine for over-speeding is ₹1,000–₹2,000 for light vehicles and ₹2,000–₹4,000 for medium and heavy vehicles. Slow down — every km/h matters."
+  },
+  {
+    "instruction": "Good evening! How should I park my car safely on a slope in India?",
+    "input": "",
+    "output": "Good evening! Parking on a slope in India requires extra precautions to prevent the vehicle from rolling: Apply the parking brake (handbrake) firmly. Leave the car in first gear (manual) or Park (automatic). Turn the front wheels toward the kerb if facing downhill — if the car rolls, the kerb stops it. Turn the wheels away from the kerb (toward the road) if facing uphill — so the car rolls into the kerb if brakes fail. Use a wheel chock if available in steep areas. In Indian hill stations like Shimla and Ooty, unsecured vehicles rolling downhill cause serious accidents — always double-check the handbrake is fully engaged."
+  },
+  {
+    "instruction": "Hello! What is the correct process to get a driving licence in India?",
+    "input": "",
+    "output": "Hello! The process for getting a driving licence in India is: Step 1 — Apply for a Learner's Licence at your local RTO or online via parivahan.gov.in. Pass the online or offline theory test on road signs and rules. Step 2 — Practice driving for at least 30 days. Step 3 — Apply for the Permanent Driving Licence (DL) and appear for the practical driving test at the RTO test track. Required documents: Age proof, address proof, passport photos, and application fee. Since 2021, private driving training institutes with certified tracks can issue licences without the RTO visit in some states. A valid DL is mandatory for all drivers above 18 years (16 with guardian consent for <50cc bikes)."
+  },
+  {
+    "instruction": "Namaste! What should I do if I am involved in a minor car accident in India?",
+    "input": "",
+    "output": "Namaste! Stay calm. For a minor accident in India: Move vehicles to the side of the road if possible to avoid blocking traffic. Switch on hazard lights. Check yourself and all parties for injuries — call 108 immediately if anyone is hurt. Exchange names, contact numbers, vehicle registration numbers, and insurance details with the other party. Take photographs of the damage and the scene. Do not sign any blank papers or make informal cash settlements on the spot without documentation. File an FIR at the nearest police station within 24 hours if there is injury, significant damage, or dispute. Inform your insurance company promptly to initiate the claim process."
+  },
+  {
+    "instruction": "Good morning! What is the danger of driving with worn tyres on Indian roads?",
+    "input": "",
+    "output": "Good morning! Tyres are your vehicle's only contact with the road — worn tyres are extremely dangerous. Warning signs: Tread depth below 1.6 mm (legal minimum), visible tread wear indicator bars, cracking on sidewalls, or bulging. Worn tyres on Indian roads cause: Significantly increased stopping distance — especially on wet monsoon roads. Higher risk of hydroplaning in rain. Greater vulnerability to blowouts from pothole impact. Reduced grip on gravel or sand-covered rural roads. Indian roads are harsh on tyres due to extreme heat and rough surfaces — inspect tyre condition monthly and replace any tyre showing significant wear before a long trip."
+  },
+  {
+    "instruction": "Hello! What are the rules for driving a vehicle with a trailer on Indian roads?",
+    "input": "",
+    "output": "Hello! Driving with a trailer in India requires: A valid driving licence for the appropriate vehicle category (LMV with trailer or HMV). The trailer must be registered separately and carry its own RC, insurance, and reflectors. Speed limits are lower when towing — generally 40–60 km/h. The hitch coupling must be properly secured with safety chains. Trailer brakes (if fitted) must be operational. Rear marking lights, indicators, and reflective tape must be functional on the trailer. Wide-load trailers need special permits from the state transport authority. Turning radius and braking distance increase dramatically with a trailer — allow significantly more time and space for all manoeuvres."
+  },
+  {
+    "instruction": "Namaste! What do road signs with a red circle and a diagonal line through them mean in India?",
+    "input": "",
+    "output": "Namaste! Road signs with a red circle and a diagonal red line crossing through a symbol are Prohibitory signs in India. They prohibit the activity shown in the symbol. Common examples: No Entry (solid red circle), No Parking (P with red cross), No Horn (horn symbol crossed out), No Overtaking, No U-Turn, and No Left/Right Turn. These signs must be obeyed — they represent absolute restrictions. Violating a prohibitory sign is a traffic offence under the Motor Vehicles Act and can attract fines and penalty points. When you see any sign with a red circle and cross, it means that specific action is forbidden at that location."
+  },
+  {
+    "instruction": "Good afternoon! How should I handle an aggressive driver or road rage situation on Indian roads?",
+    "input": "",
+    "output": "Good afternoon! Road rage is unfortunately common on congested Indian roads. If you encounter an aggressive driver: Do not engage — avoid eye contact and do not respond to gestures. Slow down and create distance between yourself and the aggressive driver. Do not block them — allow them to pass and let them go ahead. If they follow you, drive to the nearest police station, petrol pump, or busy public area — do not go home. Note the vehicle registration number and report to police via 112 or online at your state police's website. Do not confront the driver outside your vehicle in any situation — physical altercations from road rage have resulted in fatalities in India."
+  },
+  {
+    "instruction": "Hello! What is the rule for vehicle modification in India and why does it matter for safety?",
+    "input": "",
+    "output": "Hello! Vehicle modifications in India are regulated under Section 52 of the Motor Vehicles Act. Any alteration that changes the structure of the vehicle from its original specifications must be approved by the vehicle manufacturer and endorsed in the RC by the RTO. Illegal modifications that impact safety include: Removing or disabling factory-fitted safety systems, fitting non-standard lights (excessively bright LEDs or HID without approval), altering suspension or lowering the chassis beyond safe limits, and fitting oversized or under-spec tyres. Illegally modified vehicles that cause accidents attract higher liability. Factory-fitted safety features like airbags, ABS, and crumple zones are calibrated together — altering one can compromise the others."
+  },
+  {
+    "instruction": "Namaste! What is the importance of ADAS (Advanced Driver Assistance Systems) features in modern Indian cars?",
+    "input": "",
+    "output": "Namaste! ADAS features are increasingly available in new Indian cars and significantly improve road safety. Key features include: Automatic Emergency Braking (AEB) — applies brakes when a collision is imminent. Lane Departure Warning — alerts when you drift out of lane. Blind Spot Monitoring — warns of vehicles in your blind spot. Rear Cross Traffic Alert — warns when reversing. Adaptive Cruise Control — maintains safe following distance automatically. Forward Collision Warning — alerts to slowing vehicles ahead. These systems support the driver but do not replace attentive driving. On challenging Indian roads with mixed traffic, ADAS assists but can be confused by motorcycles, cattle, or road markings — always remain fully attentive even with ADAS active."
+  },
+  {
+    "instruction": "Good evening! How many hours should I drive continuously before taking a break on Indian highways?",
+    "input": "",
+    "output": "Good evening! Driver fatigue is a leading cause of highway accidents in India. The recommended practice is: Take a break of at least 15–20 minutes after every 2 hours of continuous driving. On very long journeys, plan overnight stops rather than driving through the night. Avoid driving between 2 AM and 6 AM — this is when circadian drowsiness peaks. Even if you feel alert, cognitive performance decreases after 2–3 hours without a break. Use highway dhabas, petrol pumps, or NHAI rest areas for breaks. For commercial drivers, the Motor Transport Workers Act specifies duty hour limits — but the fatigue principle applies to all drivers equally."
+  },
+  {
+    "instruction": "Namaste! What is the rule for using high beam headlights in India?",
+    "input": "",
+    "output": "Namaste! High beam headlights illuminate the road up to 100 metres ahead and should be used on unlit highways and rural roads when no oncoming vehicle is present. You must switch to low beam (dip) when an oncoming vehicle is within 150–200 metres, when following another vehicle closely, and inside lit city areas where high beams can blind other road users. In India, failure to dip headlights is a common cause of head-on collisions on single-lane highways. Many states have made failure to dip a chargeable offence. Always be courteous with your headlights — a blinded driver is a danger to everyone on the road."
+  },
+  {
+    "instruction": "Good morning! What is the meaning of a solid white line on the left side of an Indian road?",
+    "input": "",
+    "output": "Good morning! A solid white line along the left edge of the road marks the boundary of the main carriageway. The area beyond this line is the road shoulder, which is meant for emergency stops only — not for regular driving or overtaking. In India, two-wheelers and auto-rickshaws often use the shoulder as an overtaking lane, which is both illegal and dangerous. As a car driver, avoid driving on the shoulder. If you must stop in an emergency, pull fully onto the shoulder and switch on hazard lights. The edge line is a safety boundary — respect it at all times."
+  },
+  {
+    "instruction": "Hello! What precautions should I take while driving through dust storms in Rajasthan or Gujarat?",
+    "input": "",
+    "output": "Hello! Dust storms (andhi) in Rajasthan, Gujarat, and other arid Indian regions can reduce visibility to near zero within seconds. If you encounter a dust storm while driving: Pull off the road completely to a safe area — do not keep driving. Switch off your headlights so other vehicles don't use them as a guide and drive into you. Keep your hazard lights on. Roll up all windows. Wait for the storm to pass before resuming. If you cannot pull off, switch on hazard lights, reduce speed to a crawl, and stay in your lane. Never stop in the middle of the road during a dust storm — always move to the shoulder."
+  },
+  {
+    "instruction": "Namaste! What is the rule for vehicles at a T-junction in India?",
+    "input": "",
+    "output": "Namaste! At a T-junction in India, vehicles on the through road (the top of the T) generally have right of way over vehicles emerging from the minor road (the stem of the T). If you are emerging from the minor road: Come to a complete stop at the junction line. Look right, left, and right again before proceeding. Yield to all traffic on the main road. Do not inch forward into the main road to 'claim space'. At uncontrolled T-junctions in Indian villages and cities, treat every emerging vehicle as a potential hazard — many drivers do not yield properly. Slow down as you approach any T-junction even on the main road."
+  },
+  {
+    "instruction": "Good morning! What is the fine for not giving way to an emergency vehicle in India?",
+    "input": "",
+    "output": "Good morning! Under Section 194E of the Motor Vehicles (Amendment) Act 2019, failing to give way to an emergency vehicle — ambulance, fire engine, police vehicle — attracts a fine of ₹10,000. This is one of the highest traffic fines in the amended Act. When you hear a siren or see flashing emergency lights, pull to the extreme left immediately and stop if needed to create a clear passage. Do not follow the emergency vehicle to benefit from the cleared path. Every second of delay to an ambulance can cost a life — India's 'Green Corridor' awareness campaigns have shown that timely hospital arrival dramatically improves survival rates in cardiac and trauma emergencies."
+  }
+]
